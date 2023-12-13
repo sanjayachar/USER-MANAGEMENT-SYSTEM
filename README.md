@@ -28,12 +28,7 @@ This is a sample project demonstrating a User Management System with CRUD operat
 
 ## Setup
 
-### Frontend
-
-1. Navigate to the `frontend` directory:
-   ```bash
-   cd frontend
-   
+### Frontend   
   Install dependencies:
   ```bash
   npm install
@@ -43,6 +38,20 @@ This is a sample project demonstrating a User Management System with CRUD operat
   ```bash
   npm start
   ```
+
+### Backend
+1. Visit [Spring Initializer](https://start.spring.io/).
+2. Select the following options:
+     Project: `Maven Project`
+     Language: `Java`
+     Spring Boot: `Latest stable version`
+     Project Metadata: Enter `Artifact`, `Group`, and `Name` values.
+     Packaging: `Jar` (or `War` if needed)
+     Dependencies:
+        `Spring Web`
+        `Spring Data JPA`
+        `MySQL Database` (or choose a different database)
+    
 Open the frontend application in your browser.
 Use the application to perform CRUD operations on users.
 
